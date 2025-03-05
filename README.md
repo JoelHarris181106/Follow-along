@@ -301,3 +301,12 @@ Display Selected Address: Show the address the user selected for delivery.
 Show Total Price: Display the total value of the cart, including any applicable pricing details.
 Place Order Button: Add a "Place Order" button at the bottom to finalize the order.
 
+# Milestone 25: Create Order API Endpoint 
+
+We will develop a backend API endpoint to place orders by storing order details in MongoDB.
+
+## Key Achievements
+- Create Order Endpoint – Accepts products, user, and address details.
+- Retrieve User ID – Fetch _id using the user’s email.
+- Separate Orders for Each Product – Each product is stored as a unique order with the same address.
+- Save to MongoDB – Store order details in the orders collection.
