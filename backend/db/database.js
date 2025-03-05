@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 const connectDatabase = () => {
   mongoose
-    .connect("mongodb+srv://shanmugapriyab211:shanmuga%402006@cluster0.nf2jr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+    .connect("mongodb+srv://joelharriss69:joel2006@cluster1.kdouk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1")
     .then((data) => {
       console.log(`MongoDB connected with server: ${data.connection.host}`);
     })

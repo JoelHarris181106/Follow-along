@@ -11,7 +11,7 @@ const SelectAddress = () => {
     const navigate = useNavigate();
 
     // Replace with dynamic email in production
-    const userEmail = 'priya@gmail.com';
+    const userEmail = 'joel@gmail.com';
 
     useEffect(() => {
         const fetchAddresses = async () => {
